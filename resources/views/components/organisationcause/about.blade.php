@@ -39,7 +39,7 @@
                 </div>
             </div>
 
-            <div class="grid min-h-[140px] w-full place-items-center overflow-x-scroll rounded-lg pt-5 m-10 p-6 lg:overflow-visible">
+            <div class="grid min-h-[140px] w-full place-items-center rounded-lg pt-5 m-10 p-6 ">
               <p class="block text-black font-['Quicksand'] text-xl font-normal leading-relaxed text-inherit antialiased">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis. Vitae congue mauris rhoncus aenean vel elit scelerisque mauris. Adipiscin.
               </p>              
@@ -48,14 +48,14 @@
 
             
             
-            <h2 class="text-black text-4xl font-semibold font-['League Spartan'] uppercase leading-[43.20px]">QUI SOMMES-NOUS ?</h2>
+            <h2 class="text-black lg:text-4xl md:text-xl sm:text-sm font-semibold font-['League Spartan'] uppercase leading-[43.20px]">QUI SOMMES-NOUS ?</h2>
 
-            <div class="bg-gray-300 w-[625px] h-[352.01px] rounded-[9px] mt-3">
+            <div class="w-[625px] h-[352.01px] rounded-[9px] mt-3 md:w-[415px] md:h-[255px] sm:w-[340px] sm:h-[215px]">
                 <img src="{{asset('storage/Rectangle 616.png')}}">
             </div>
 
-            <div class="mt-2">
-                <img src="{{asset('storage/share.png')}}" style="width: 26.38px; height: 31.63px; left : 320px; position: relative">
+            <div class="lg:mt-1 lg:relative lg:left-[215px] md:mt-1 md:relative md:left-[215px] sm:mt-0 sm:relative sm:left-[185px] ">
+                <img src="{{asset('storage/share.png')}}" style="width: 26.38px; height: 31.63px;">
             </div>
 
         </div>

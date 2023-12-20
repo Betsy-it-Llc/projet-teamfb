@@ -21,27 +21,27 @@
             </div>
             
         </div>
-        <div>
+        <div class="hidden md:block lg:block">
             <div>
                 <img src="{{asset('storage/image3.png')}}" style="w-[250px] h-[250px] rounded-[15px]">
             </div>
         </div>
-        <div>
+        <div class="hidden lg:block">
             <div>
                 <img src="{{asset('storage/image4.png')}}" style="w-[250px] h-[250px] rounded-[15px]">
             </div>
         </div>
-        <div>
+        <div class="hidden lg:block">
             <div>
                 <img src="{{asset('storage/image5.png')}}" style="w-[250px] h-[250px] rounded-[15px]">
             </div>
         </div>
-        <div>
+        <div class="hidden lg:block">
             <div>
                 <img src="{{asset('storage/image6.png')}}" style="w-[250px] h-[250px] rounded-[15px]">
             </div>
         </div>
-        <div>
+        <div class="hidden lg:block">
             <div>
                 <img src="{{asset('storage/image7.png')}}" style="w-[250px] h-[250px] rounded-[15px]">
             </div>
