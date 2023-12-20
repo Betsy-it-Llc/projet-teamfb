@@ -1,0 +1,164 @@
+// Fonts
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+
+
+.active-menu::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px; /* Hauteur de la barre */
+    background-color: black; /* Couleur de la barre */
+}
+
+.montant {
+    @apply  rounded-md lg:w-1/3;
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 3%;
+    height: 43px;
+}
+
+
+
+.totalcagnotte {
+    @apply bg-gray-300 rounded-md w-44 h-20 telL:w-56 telL:h-10 telxl:w-80 telxl:h-10 sm:w-96 sm:h-10 lg:w-80 lg:h-10 xl:w-64 xl:h-10 1xl:w-72 1xl:h-10 2xl:w-96 2xl:h-10 md:w-72 md:h-10 ml-10 mt-4;
+}
+
+.button {
+    @apply rounded-xl px-2 py-2 md:px-3 md:py-3 hover:shadow-md;
+}
+
+/* header de toutes les pages */
+
+.header-min {
+    @apply pt-10 pl-10 text-left;
+}
+
+.h1-min {
+   @apply text-5xl font-sans font-bold text-slate-800 tel:text-4xl;
+}
+
+.header-maj {
+    @apply uppercase ml-10;
+}
+
+.h1-maj {
+    @apply text-3xl  font-bold;
+}
+
+/* Css montant disponible haut droite page liste contribution / liste contributeur / cagnottes / Experience / transfert */
+
+.somme-cagnotte-disponible {
+    @apply font-extrabold text-xl tel:text-4xl mr-4;
+}
+
+.text-montant-disponible{
+    @apply block text-base tel:text-lg mr-4;
+}
+
+/* Page contribution / contributeurs */
+
+.text-nom-colonne-tableau {
+    @apply text-base font-sans text-slate-800  ;
+}
+
+.button-utiliser {
+    @apply hover:border-b-2 hover:border-gray-900 text-center pb-1 relative tel:bottom-5 tel:left-10 md:left-10 xl:left-10 flex items-center  mt-5;
+}
+
+.text-button-utiliser {
+    @apply text-xl font-sans text-slate-800 ml-2 tel:text-base md:text-base;
+}
+
+.button-envoi-message {
+    @apply text-center pt-20 relative bottom-2
+}
+
+.text-button-message {
+    @apply text-xl font-sans text-slate-800;
+}
+
+/* Page liste expérience / detail experience */
+
+.div-kpi {
+    @apply flex flex-col rounded-lg border w-16 h-16 border-gray-200 text-center;
+}
+
+.text-kpi {
+   @apply order-last text-base font-medium text-gray-400;
+}
+
+.donne-kpi {
+   @apply text-xl font-semibold text-black md:text-3xl;
+}
+
+.div-cadre {
+    @apply bg-gray-200 w-40 h-20 tel:w-20 tel:h-20 lg:w-40 lg:h-20 xl:w-40 xl:h-20 2xl:w-40 2xl:h-20 rounded-xl border border-gray-400 ml-10 mr-4 ;
+}
+
+.nombre-cadre {
+    @apply text-2xl font-sans text-slate-800 text-center mt-3;
+}
+
+.text-cadre {
+    @apply text-sm tel:text-xs font-sans text-gray-400 text-center;
+}
+
+/* Page  detail experience */
+
+.div-kpi-detail {
+    @apply border-2 h-24 border-gray-200 px-1 py-6 rounded-lg;
+}
+
+.nombre-kpi-detail {
+    @apply text-sm font-medium text-3xl text-gray-900;
+}
+
+.text-kpi-detail {
+    @apply leading-relaxed whitespace-nowrap text-xs text-gray-400;
+}
+
+
+/*  Parcours soutenir : Page choix mode soutien */
+
+.div-cadre-mode{
+    @apply bg-gray-100 tel:h-28 telL:h-28 sm:w-3/4 sm:h-28 rounded-lg sm:relative  sm:top-36 ml-10;
+}
+
+.text-mode {
+   @apply  text-base font-sans text-black text-center pt-3;
+}
+
+.text-cagnotte {
+    @apply text-lg font-mono font-bold text-black text-center;
+}
+
+/*  Parcours soutenir : Page Tranfert / lier / don  */
+
+.text-caroussel {
+    @apply relative font-sans text-center text-slate-800;
+}
+
+.div-caroussel {
+    @apply relative flex flex-col items-center justify-center w-32 bg-gray-100 rounded-md sm:w-40 sm:h-24 md:w-40 lg:w-40 md:h-28 sm:left-2 top-9;
+}
+
+.button-valider {
+    @apply bg-gray-300 text-black px-10 py-2 rounded hover:bg-gray-600;
+}
+
+/*  Parcours soutenir : Page validation : Tranfert / lier / don  */
+
+.button-back {
+    @apply bg-gray-300 text-black px-20 py-2 rounded hover:bg-gray-600;
+}
+
+
+

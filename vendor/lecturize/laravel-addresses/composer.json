@@ -1,0 +1,68 @@
+{
+    "name": "lecturize/laravel-addresses",
+    "description": "Simple address and contact management for Laravel.",
+    "homepage": "https://github.com/Lecturize/Laravel-Addresses",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "lecturize",
+        "addresses",
+        "contacts",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Alexander Manfred Poellmann",
+            "homepage": "https://twitter.com/AMPoellmann",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "illuminate/database": "^9.0|^10.0",
+        "illuminate/support": "^9.0|^10.0",
+        "webpatser/laravel-countries": "^1.5",
+        "webpatser/laravel-uuid": "^3.0|^4.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.4",
+        "orchestra/testbench": "^7.0|^8.0",
+        "phpunit/phpunit": "^8.0|^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lecturize\\Addresses\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lecturize\\Addresses\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "addresses": "vendor/bin/phpunit",
+        "addresses-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lecturize\\Addresses\\AddressesServiceProvider"
+            ],
+            "aliases": {
+                "Address": "Lecturize\\Addresses\\Facades\\Address"
+            }
+        },
+        "branch-alias": {
+            "dev-master": "1.2.x-dev"
+        }
+    },
+    "support": {
+        "source": "https://github.com/Lecturize/Laravel-Addresses",
+        "issues": "https://github.com/Lecturize/Laravel-Addresses/issues"
+    }
+}

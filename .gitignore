@@ -1,0 +1,5 @@
+.env
+storage/
+storage/framework/views
+app/bootstrap/cache
+node_modules

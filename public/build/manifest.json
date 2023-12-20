@@ -1,0 +1,22 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-1a8dd0ed.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-7f9dfa9e.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/js/blade-app.js": {
+    "file": "assets/blade-app-cfa8e750.js",
+    "isEntry": true,
+    "src": "resources/js/blade-app.js"
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-dcbf8eec.css",
+    "isEntry": true,
+    "src": "resources/sass/app.scss"
+  }
+}
